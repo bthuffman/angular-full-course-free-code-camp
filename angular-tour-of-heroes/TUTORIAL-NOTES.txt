@@ -1,0 +1,21 @@
+To create new angular project go to the desired directory (create in github, copy down to your IDE, type this in terminal)
+	ng new "TITLE OF PROJECT"
+
+Create new component
+	ng generate component "COMPONENT NAME"
+		Note: always export the class so can import it elsewhere (like the AppModule)
+Spin it up on local4200 server
+	ng serve --open
+
+OnInit in components shouldn't have complex constructors. They should do no more than set the initial local variables to simple values.
+
+Compile page
+	npm start
+
+Pipes:
+	The pipe operator |
+	After the pipe operator, you can activate built-in pip formats for displaying and you can even create your own!
+
+MetaData
+	Angular needs to know how pieces of App fit together and what other files and libarires the app requires. Such info is called MetaData
+	You can opt into various modules in the app.module.ts
