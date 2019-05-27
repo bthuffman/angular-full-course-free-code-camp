@@ -1,3 +1,4 @@
+Notice many of these commands are using Angular CLI built in commands.
 To create new angular project go to the desired directory (create in github, copy down to your IDE, type this in terminal)
 	ng new "TITLE OF PROJECT"
 
@@ -19,3 +20,6 @@ Pipes:
 MetaData
 	Angular needs to know how pieces of App fit together and what other files and libarires the app requires. Such info is called MetaData
 	You can opt into various modules in the app.module.ts
+
+Create a new service
+	ng generate service "TITLE"
